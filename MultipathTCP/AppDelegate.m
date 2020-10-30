@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,32 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    
+    ViewController *HM = [storyboard instantiateInitialViewController];//初始化“初始控制器”（箭头所指的控制器）
+    //通过一个标识初始化对应的控制器
+    ViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"KN"];
+    
+    
+
+
+
+    
+//    ViewController * vc = [[ViewController alloc] init];
+    
+    
+    UINavigationController * na = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = na;
+    [self.window makeKeyAndVisible];
+
+    
     return YES;
 }
 

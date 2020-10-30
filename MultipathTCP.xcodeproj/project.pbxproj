@@ -14,6 +14,7 @@
 		049316B4254BAB7100A04863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049316B3254BAB7100A04863 /* Assets.xcassets */; };
 		049316B7254BAB7100A04863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049316B5254BAB7100A04863 /* LaunchScreen.storyboard */; };
 		049316BA254BAB7100A04863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049316B9254BAB7100A04863 /* main.m */; };
+		04C4CF8A254BED2F008464B3 /* IMG_2665 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 04C4CF89254BED2E008464B3 /* IMG_2665 2.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		049316B6254BAB7100A04863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049316B8254BAB7100A04863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049316B9254BAB7100A04863 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C4CF86254BEBD5008464B3 /* MultipathTCP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultipathTCP.entitlements; sourceTree = "<group>"; };
+		04C4CF89254BED2E008464B3 /* IMG_2665 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_2665 2.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		049316A6254BAB6A00A04863 /* MultipathTCP */ = {
 			isa = PBXGroup;
 			children = (
+				04C4CF86254BEBD5008464B3 /* MultipathTCP.entitlements */,
+				04C4CF89254BED2E008464B3 /* IMG_2665 2.JPG */,
 				049316A7254BAB6A00A04863 /* AppDelegate.h */,
 				049316A8254BAB6A00A04863 /* AppDelegate.m */,
 				049316AA254BAB6A00A04863 /* SceneDelegate.h */,
@@ -134,6 +139,7 @@
 			files = (
 				049316B7254BAB7100A04863 /* LaunchScreen.storyboard in Resources */,
 				049316B4254BAB7100A04863 /* Assets.xcassets in Resources */,
+				04C4CF8A254BED2F008464B3 /* IMG_2665 2.JPG in Resources */,
 				049316B2254BAB6A00A04863 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,9 +297,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultipathTCP/MultipathTCP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 249PMS4KB9;
 				INFOPLIST_FILE = MultipathTCP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,9 +317,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultipathTCP/MultipathTCP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 249PMS4KB9;
 				INFOPLIST_FILE = MultipathTCP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
